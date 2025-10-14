@@ -1,4 +1,6 @@
 <?php
+//define('YII_ENV', 'prod');
+//define('YII_DEBUG', false);
 
 // comment out the following two lines when deployed to production
 defined('YII_DEBUG') or define('YII_DEBUG', true);

@@ -2,7 +2,6 @@
 
 use yii\helpers\Html;
 
-/** @var \app\models\Post $model */
 $this->title = 'Подтверждение удаления';
 ?>
 

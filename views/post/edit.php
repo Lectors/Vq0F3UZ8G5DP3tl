@@ -2,9 +2,6 @@
 
 use yii\helpers\Html;
 
-/** @var yii\web\View $this */
-/** @var app\models\Post $model */
-
 $this->title = 'Редактирование сообщения: ' . $model->id;
 $this->params['breadcrumbs'][] = 'Редактирование сообщения ' . $model->id;
 ?>

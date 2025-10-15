@@ -56,8 +56,14 @@ $config = [
         ],
 
     ],
+    'container' => [
+        'singletons' => [
+            app\repositories\PostRepositoryInterface::class => app\repositories\PostRepository::class,
+        ],
+    ],
     'params' => $params,
 ];
+
 
 if (YII_ENV_DEV) {
     // configuration adjustments for 'dev' environment
